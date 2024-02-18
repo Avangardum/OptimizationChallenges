@@ -1,3 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Avangardum.OptimizationChallenges.GameOfLife.CSharp;
+using Avangardum.OptimizationChallenges.GameOfLife.CSharp.Iterations;
+using BenchmarkDotNet.Running;
 
-Console.WriteLine("Hello, World!");
+BenchmarkRunner.Run<Benchmarks>();
+
+// InputGenerator.GenerateInput(100, 100000);
+// Iteration1.Run();
