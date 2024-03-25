@@ -1,8 +1,5 @@
-﻿using Avangardum.OptimizationChallenges.GameOfLife.CSharp;
-using Avangardum.OptimizationChallenges.GameOfLife.CSharp.Iterations;
+﻿using System.Diagnostics;
+using Avangardum.OptimizationChallenges.GameOfLife.CSharp;
 using BenchmarkDotNet.Running;
 
 BenchmarkRunner.Run<Benchmarks>();
-
-// InputGenerator.GenerateInput(100, 100000);
-// Iteration1.Run();

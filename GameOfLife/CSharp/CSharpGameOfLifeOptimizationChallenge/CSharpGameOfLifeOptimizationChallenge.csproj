@@ -7,6 +7,7 @@
         <Nullable>enable</Nullable>
         <RootNamespace>Avangardum.OptimizationChallenges.GameOfLife.CSharp</RootNamespace>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <PublishAot>false</PublishAot>
     </PropertyGroup>
 
     <ItemGroup>
